@@ -1,0 +1,6 @@
+"virtualenv/" 
+"db.sqlite3" 
+"geckodriver.log" 
+"myenv/" 
+"__pycache__" 
+"*.pyc" 
