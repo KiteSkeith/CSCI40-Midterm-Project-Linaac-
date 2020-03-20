@@ -4,3 +4,8 @@
 "myenv/" 
 "__pycache__" 
 "*.pyc" 
+"myenv/" 
+"db.sqlite3" 
+"geckodriver.log" 
+"__pycache__" 
+"*.pyc" 

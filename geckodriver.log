@@ -126,3 +126,781 @@ _onJSONObjectReady/<@transport.js:500:9
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1584628404285	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Acer\\AppData\\Local\\Temp\\rust_mozprofileBvUyrM"
+JavaScript error: jy4nu1m3gm1.cfg, line 2: ReferenceError: Components is not defined
+1584628407177	Marionette	INFO	Listening on port 63616
+1584628407517	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584628407547	Marionette	DEBUG	[6442450945] Frame script loaded
+1584628407549	Marionette	DEBUG	[6442450945] Frame script registered
+1584628407589	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1584628407897	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1584628408047	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo
+1584628408051	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo
+1584628408075	Marionette	INFO	Stopped listening on port 63616
+1584628408139	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: TypeError: setting getter-only property "_currentSearchHostname" (resource://activity-stream/lib/TopSitesFeed.jsm:86:5) JS Stack trace: uninit@TopSitesFeed.jsm:86:5
+onAction@TopSitesFeed.jsm:707:9
+_middleware/</<@Store.jsm:51:11
+Store/this[method]@Store.jsm:29:55
+uninit@Store.jsm:170:7
+uninit@ActivityStream.jsm:363:5
+uninit@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:86:5
+shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:194:3
+callBootstrapMethod@XPIProvider.jsm:1588:20
+_shutdown@XPIProvider.jsm:1724:12
+flushAllWindowsAsync@SessionStore.jsm:1697:7
+ssi_onQuitApplicationGranted/<@SessionStore.jsm:1624:27
+trigger@AsyncShutdown.jsm:710:23
+_wait@AsyncShutdown.jsm:857:7
+wait@AsyncShutdown.jsm:841:28
+observe@AsyncShutdown.jsm:524:17
+GeckoDriver.prototype.quit@driver.js:3319:3
+despatch@server.js:297:20
+execute@server.js:271:11
+onPacket/<@server.js:246:15
+onPacket@server.js:245:8
+_onJSONObjectReady/<@transport.js:500:9
+[Child 16500, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16500, Chrome_C
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 16648, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16648, Chrome_ChildThread] W[Parent 5504, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10112, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10112,JavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
+[GPU 8856, Chrome_ChildThre1584628892567	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Acer\\AppData\\Local\\Temp\\rust_mozprofileqg70wk"
+JavaScript error: jy4nu1m3gm1.cfg, line 2: ReferenceError: Components is not defined
+1584628895429	Marionette	INFO	Listening on port 64956
+1584628895796	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584628895840	Marionette	DEBUG	[6442450945] Frame script loaded
+1584628895843	Marionette	DEBUG	[6442450945] Frame script registered
+1584628895882	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1584628896250	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1584628896404	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo
+1584628896414	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo
+1584628896445	Marionette	INFO	Stopped listening on port 64956
+1584628896503	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: TypeError: setting getter-only property "_currentSearchHostname" (resource://activity-stream/lib/TopSitesFeed.jsm:86:5) JS Stack trace: uninit@TopSitesFeed.jsm:86:5
+onAction@TopSitesFeed.jsm:707:9
+_middleware/</<@Store.jsm:51:11
+Store/this[method]@Store.jsm:29:55
+uninit@Store.jsm:170:7
+uninit@ActivityStream.jsm:363:5
+uninit@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:86:5
+shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:194:3
+callBootstrapMethod@XPIProvider.jsm:1588:20
+_shutdown@XPIProvider.jsm:1724:12
+flushAllWindowsAsync@SessionStore.jsm:1697:7
+ssi_onQuitApplicationGranted/<@SessionStore.jsm:1624:27
+trigger@AsyncShutdown.jsm:710:23
+_wait@AsyncShutdown.jsm:857:7
+wait@AsyncShutdown.jsm:841:28
+observe@AsyncShutdown.jsm:524:17
+GeckoDriver.prototype.quit@driver.js:3319:3
+despatch@server.js:297:20
+execute@server.js:271:11
+onPacket/<@server.js:246:15
+onPacket@server.js:245:8
+_onJSONObjectReady/<@transport.js:500:9
+[Child 5200, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5200, Chr
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
+[GPU 2456, Chrome_ChildT
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1584629063059	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Acer\\AppData\\Local\\Temp\\rust_mozprofile2y5TTs"
+JavaScript error: jy4nu1m3gm1.cfg, line 2: ReferenceError: Components is not defined
+1584629066023	Marionette	INFO	Listening on port 65425
+1584629066304	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584629066346	Marionette	DEBUG	[6442450945] Frame script loaded
+1584629066348	Marionette	DEBUG	[6442450945] Frame script registered
+1584629066374	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1584629066693	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1584629066850	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo
+1584629066867	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo
+1584629066897	Marionette	INFO	Stopped listening on port 65425
+1584629067002	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: TypeError: setting getter-only property "_currentSearchHostname" (resource://activity-stream/lib/TopSitesFeed.jsm:86:5) JS Stack trace: uninit@TopSitesFeed.jsm:86:5
+onAction@TopSitesFeed.jsm:707:9
+_middleware/</<@Store.jsm:51:11
+Store/this[method]@Store.jsm:29:55
+uninit@Store.jsm:170:7
+uninit@ActivityStream.jsm:363:5
+uninit@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:86:5
+shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:194:3
+callBootstrapMethod@XPIProvider.jsm:1588:20
+_shutdown@XPIProvider.jsm:1724:12
+flushAllWindowsAsync@SessionStore.jsm:1697:7
+ssi_onQuitApplicationGranted/<@SessionStore.jsm:1624:27
+trigger@AsyncShutdown.jsm:710:23
+_wait@AsyncShutdown.jsm:857:7
+wait@AsyncShutdown.jsm:841:28
+observe@AsyncShutdown.jsm:524:17
+GeckoDriver.prototype.quit@driver.js:3319:3
+despatch@server.js:297:20
+execute@server.js:271:11
+onPacket/<@server.js:246:15
+onPacket@server.js:245:8
+_onJSONObjectReady/<@transport.js:500:9
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 15004, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15004, Chrome_ChildThread] WARNING: pipe err[Child 17352, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17352, ChromeJavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
+[GPU 18
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1584712846898	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Acer\\AppData\\Local\\Temp\\rust_mozprofileBXsIEQ"
+JavaScript error: jy4nu1m3gm1.cfg, line 2: ReferenceError: Components is not defined
+1584712848699	Marionette	INFO	Listening on port 51010
+1584712849018	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584712849040	Marionette	DEBUG	[6442450945] Frame script loaded
+1584712849042	Marionette	DEBUG	[6442450945] Frame script registered
+1584712849064	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1584712850348	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1584712850350	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1584712850388	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for about:neterror?e=connectionFailure&u=http%3A//localhost%3A8000/froyo&c=UTF-8&f=regular&captive=true&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A8000.
+1584712850405	Marionette	INFO	Stopped listening on port 51010
+1584712850436	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: TypeError: setting getter-only property "_currentSearchHostname" (resource://activity-stream/lib/TopSitesFeed.jsm:86:5) JS Stack trace: uninit@TopSitesFeed.jsm:86:5
+onAction@TopSitesFeed.jsm:707:9
+_middleware/</<@Store.jsm:51:11
+Store/this[method]@Store.jsm:29:55
+uninit@Store.jsm:170:7
+uninit@ActivityStream.jsm:363:5
+uninit@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:86:5
+shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:194:3
+callBootstrapMethod@XPIProvider.jsm:1588:20
+_shutdown@XPIProvider.jsm:1724:12
+flushAllWindowsAsync@SessionStore.jsm:1697:7
+ssi_onQuitApplicationGranted/<@SessionStore.jsm:1624:27
+trigger@AsyncShutdown.jsm:710:23
+_wait@AsyncShutdown.jsm:857:7
+wait@AsyncShutdown.jsm:841:28
+observe@AsyncShutdown.jsm:524:17
+GeckoDriver.prototype.quit@driver.js:3319:3
+despatch@server.js:297:20
+execute@server.js:271:11
+onPacket/<@server.js:246:15
+onPacket@server.js:245:8
+_onJSONObjectReady/<@transport.js:500:9
+[Parent 15376, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15276, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15276, C[Parent 15376, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4336, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4336, Chrome_Chil[Parent 15376, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13988, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13988, Chrome_ChildThread] WARNINGJavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
+[GPU 9096, Chrome_ChildThread] 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1584712953891	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Acer\\AppData\\Local\\Temp\\rust_mozprofileGYWEWi"
+JavaScript error: jy4nu1m3gm1.cfg, line 2: ReferenceError: Components is not defined
+1584712955351	Marionette	INFO	Listening on port 51103
+1584712955506	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584712955528	Marionette	DEBUG	[6442450945] Frame script loaded
+1584712955530	Marionette	DEBUG	[6442450945] Frame script registered
+1584712955548	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1584712955834	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1584712955896	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo
+1584712955898	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo
+1584712955913	Marionette	INFO	Stopped listening on port 51103
+1584712955960	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: TypeError: setting getter-only property "_currentSearchHostname" (resource://activity-stream/lib/TopSitesFeed.jsm:86:5) JS Stack trace: uninit@TopSitesFeed.jsm:86:5
+onAction@TopSitesFeed.jsm:707:9
+_middleware/</<@Store.jsm:51:11
+Store/this[method]@Store.jsm:29:55
+uninit@Store.jsm:170:7
+uninit@ActivityStream.jsm:363:5
+uninit@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:86:5
+shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:194:3
+callBootstrapMethod@XPIProvider.jsm:1588:20
+_shutdown@XPIProvider.jsm:1724:12
+flushAllWindowsAsync@SessionStore.jsm:1697:7
+ssi_onQuitApplicationGranted/<@SessionStore.jsm:1624:27
+trigger@AsyncShutdown.jsm:710:23
+_wait@AsyncShutdown.jsm:857:7
+wait@AsyncShutdown.jsm:841:28
+observe@AsyncShutdown.jsm:524:17
+GeckoDriver.prototype.quit@driver.js:3319:3
+despatch@server.js:297:20
+execute@server.js:271:11
+onPacket/<@server.js:246:15
+onPacket@server.js:245:8
+_onJSONObjectReady/<@transport.js:500:9
+[Child 17676, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17676, Chrome_ChildThread] WA
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 17840, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17840, Chrome_ChildThread] WARNING: pipe error: 109[Parent 11156, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2828, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2828, Chrome_ChildThread] WARNING: pipe error: 109: file z:/bJavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
+[GPU 13700, Chrome_Chi
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1584713006744	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Acer\\AppData\\Local\\Temp\\rust_mozprofilep61doJ"
+JavaScript error: jy4nu1m3gm1.cfg, line 2: ReferenceError: Components is not defined
+1584713008296	Marionette	INFO	Listening on port 51155
+1584713008359	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584713008380	Marionette	DEBUG	[6442450945] Frame script loaded
+1584713008381	Marionette	DEBUG	[6442450945] Frame script registered
+1584713008396	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1584713008667	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1584713008722	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo
+1584713008726	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo
+1584713008745	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo
+1584713008778	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo
+1584713008779	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo
+1584713008809	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/ingredients
+1584713008812	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/ingredients
+1584713008825	Marionette	INFO	Stopped listening on port 51155
+1584713008871	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: TypeError: setting getter-only property "_currentSearchHostname" (resource://activity-stream/lib/TopSitesFeed.jsm:86:5) JS Stack trace: uninit@TopSitesFeed.jsm:86:5
+onAction@TopSitesFeed.jsm:707:9
+_middleware/</<@Store.jsm:51:11
+Store/this[method]@Store.jsm:29:55
+uninit@Store.jsm:170:7
+uninit@ActivityStream.jsm:363:5
+uninit@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:86:5
+shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:194:3
+callBootstrapMethod@XPIProvider.jsm:1588:20
+_shutdown@XPIProvider.jsm:1724:12
+flushAllWindowsAsync@SessionStore.jsm:1697:7
+ssi_onQuitApplicationGranted/<@SessionStore.jsm:1624:27
+trigger@AsyncShutdown.jsm:710:23
+_wait@AsyncShutdown.jsm:857:7
+wait@AsyncShutdown.jsm:841:28
+observe@AsyncShutdown.jsm:524:17
+GeckoDriver.prototype.quit@driver.js:3319:3
+despatch@server.js:297:20
+execute@server.js:271:11
+onPacket/<@server.js:246:15
+onPacket@server.js:245:8
+_onJSONObjectReady/<@transport.js:500:9
+[Child 1864, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1864, Chrome_Ch[Parent 7992, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18664, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18664, Chr[Parent 7992, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19120, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19120, Chrome_ChildThread] WJavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1584713182243	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Acer\\AppData\\Local\\Temp\\rust_mozprofileYN25FZ"
+JavaScript error: jy4nu1m3gm1.cfg, line 2: ReferenceError: Components is not defined
+1584713183723	Marionette	INFO	Listening on port 51283
+1584713183863	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584713183887	Marionette	DEBUG	[6442450945] Frame script loaded
+1584713183888	Marionette	DEBUG	[6442450945] Frame script registered
+1584713183901	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1584713184166	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1584713184222	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo
+1584713184226	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo
+1584713184244	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo
+1584713184278	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo
+1584713184278	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo
+1584713184320	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/ingredients
+1584713184322	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/ingredients
+1584713184390	Marionette	INFO	Stopped listening on port 51283
+1584713184426	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: TypeError: setting getter-only property "_currentSearchHostname" (resource://activity-stream/lib/TopSitesFeed.jsm:86:5) JS Stack trace: uninit@TopSitesFeed.jsm:86:5
+onAction@TopSitesFeed.jsm:707:9
+_middleware/</<@Store.jsm:51:11
+Store/this[method]@Store.jsm:29:55
+uninit@Store.jsm:170:7
+uninit@ActivityStream.jsm:363:5
+uninit@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:86:5
+shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:194:3
+callBootstrapMethod@XPIProvider.jsm:1588:20
+_shutdown@XPIProvider.jsm:1724:12
+flushAllWindowsAsync@SessionStore.jsm:1697:7
+ssi_onQuitApplicationGranted/<@SessionStore.jsm:1624:27
+trigger@AsyncShutdown.jsm:710:23
+_wait@AsyncShutdown.jsm:857:7
+wait@AsyncShutdown.jsm:841:28
+observe@AsyncShutdown.jsm:524:17
+GeckoDriver.prototype.quit@driver.js:3319:3
+despatch@server.js:297:20
+execute@server.js:271:11
+onPacket/<@server.js:246:15
+onPacket@server.js:245:8
+_onJSONObjectReady/<@transport.js:500:9
+[Parent 13784, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13784, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 11672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11672, Chrome_ChildThread] WARNING: [Child 15088, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15088, ChrJavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
+[G1584713207183	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Acer\\AppData\\Local\\Temp\\rust_mozprofileHDOBFX"
+JavaScript error: jy4nu1m3gm1.cfg, line 2: ReferenceError: Components is not defined
+1584713208575	Marionette	INFO	Listening on port 51326
+1584713208800	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584713208821	Marionette	DEBUG	[6442450945] Frame script loaded
+1584713208824	Marionette	DEBUG	[6442450945] Frame script registered
+1584713208839	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1584713209105	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1584713209184	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo
+1584713209191	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo
+1584713209216	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo
+1584713209238	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo
+1584713209239	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo
+1584713209268	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/ingredients
+1584713209272	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/ingredients
+1584713209326	Marionette	INFO	Stopped listening on port 51326
+1584713209360	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: TypeError: setting getter-only property "_currentSearchHostname" (resource://activity-stream/lib/TopSitesFeed.jsm:86:5) JS Stack trace: uninit@TopSitesFeed.jsm:86:5
+onAction@TopSitesFeed.jsm:707:9
+_middleware/</<@Store.jsm:51:11
+Store/this[method]@Store.jsm:29:55
+uninit@Store.jsm:170:7
+uninit@ActivityStream.jsm:363:5
+uninit@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:86:5
+shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:194:3
+callBootstrapMethod@XPIProvider.jsm:1588:20
+_shutdown@XPIProvider.jsm:1724:12
+flushAllWindowsAsync@SessionStore.jsm:1697:7
+ssi_onQuitApplicationGranted/<@SessionStore.jsm:1624:27
+trigger@AsyncShutdown.jsm:710:23
+_wait@AsyncShutdown.jsm:857:7
+wait@AsyncShutdown.jsm:841:28
+observe@AsyncShutdown.jsm:524:17
+GeckoDriver.prototype.quit@driver.js:3319:3
+despatch@server.js:297:20
+execute@server.js:271:11
+onPacket/<@server.js:246:15
+onPacket@server.js:245:8
+_onJSONObjectReady/<@transport.js:500:9
+[Parent 2572, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11584, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11584, Chrome_ChildThread] WARNING: pipe error: 109: file z:/[Parent 2572, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 5164, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5164, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/[Child 9236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9236, Chrome_ChildThread]JavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
+[GPU
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1584713355717	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Acer\\AppData\\Local\\Temp\\rust_mozprofileE1YBKl"
+JavaScript error: jy4nu1m3gm1.cfg, line 2: ReferenceError: Components is not defined
+1584713357189	Marionette	INFO	Listening on port 51425
+1584713357334	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584713357357	Marionette	DEBUG	[6442450945] Frame script loaded
+1584713357358	Marionette	DEBUG	[6442450945] Frame script registered
+1584713357371	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1584713357642	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1584713357711	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo
+1584713357715	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo
+1584713357746	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo
+1584713357767	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo
+1584713357767	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo
+1584713357794	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/ingredients
+1584713357796	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/ingredients
+1584713357850	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/ingredients
+1584713357863	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/ingredients
+1584713357863	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/ingredients
+1584713357885	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/recipes
+1584713357887	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/recipes
+1584713357939	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/recipes
+1584713357948	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/recipes
+1584713357949	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/recipes
+1584713357972	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/orders
+1584713357975	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/orders
+1584713358030	Marionette	INFO	Stopped listening on port 51425
+1584713358073	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: TypeError: setting getter-only property "_currentSearchHostname" (resource://activity-stream/lib/TopSitesFeed.jsm:86:5) JS Stack trace: uninit@TopSitesFeed.jsm:86:5
+onAction@TopSitesFeed.jsm:707:9
+_middleware/</<@Store.jsm:51:11
+Store/this[method]@Store.jsm:29:55
+uninit@Store.jsm:170:7
+uninit@ActivityStream.jsm:363:5
+uninit@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:86:5
+shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:194:3
+callBootstrapMethod@XPIProvider.jsm:1588:20
+_shutdown@XPIProvider.jsm:1724:12
+flushAllWindowsAsync@SessionStore.jsm:1697:7
+ssi_onQuitApplicationGranted/<@SessionStore.jsm:1624:27
+trigger@AsyncShutdown.jsm:710:23
+_wait@AsyncShutdown.jsm:857:7
+wait@AsyncShutdown.jsm:841:28
+observe@AsyncShutdown.jsm:524:17
+GeckoDriver.prototype.quit@driver.js:3319:3
+despatch@server.js:297:20
+execute@server.js:271:11
+onPacket/<@server.js:246:15
+onPacket@server.js:245:8
+_onJSONObjectReady/<@transport.js:500:9
+[Parent 17172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11284, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11284, Chrome_ChildThread] WARNING: pipe error: 109: file z:[Child 18356, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18356, Chrome_ChildThread] WARNING: pi[Parent 17172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15328, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15328, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/buJavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
+[GPU 16016, Chrom
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1584713668651	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Acer\\AppData\\Local\\Temp\\rust_mozprofileDCZLVB"
+JavaScript error: jy4nu1m3gm1.cfg, line 2: ReferenceError: Components is not defined
+1584713669870	Marionette	INFO	Listening on port 51742
+1584713670265	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584713670285	Marionette	DEBUG	[6442450945] Frame script loaded
+1584713670287	Marionette	DEBUG	[6442450945] Frame script registered
+1584713670300	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1584713670570	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1584713670625	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo
+1584713670628	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo
+1584713670641	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo
+1584713670691	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo
+1584713670692	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo
+1584713670716	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/ingredients
+1584713670718	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/ingredients
+1584713670772	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/ingredients
+1584713670784	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/ingredients
+1584713670784	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/ingredients
+1584713670803	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/recipes
+1584713670806	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/recipes
+1584713670852	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/recipes
+1584713670861	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/recipes
+1584713670861	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/recipes
+1584713670882	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/orders
+1584713670884	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/orders
+1584713670938	Marionette	INFO	Stopped listening on port 51742
+1584713670974	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: TypeError: setting getter-only property "_currentSearchHostname" (resource://activity-stream/lib/TopSitesFeed.jsm:86:5) JS Stack trace: uninit@TopSitesFeed.jsm:86:5
+onAction@TopSitesFeed.jsm:707:9
+_middleware/</<@Store.jsm:51:11
+Store/this[method]@Store.jsm:29:55
+uninit@Store.jsm:170:7
+uninit@ActivityStream.jsm:363:5
+uninit@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:86:5
+shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:194:3
+callBootstrapMethod@XPIProvider.jsm:1588:20
+_shutdown@XPIProvider.jsm:1724:12
+flushAllWindowsAsync@SessionStore.jsm:1697:7
+ssi_onQuitApplicationGranted/<@SessionStore.jsm:1624:27
+trigger@AsyncShutdown.jsm:710:23
+_wait@AsyncShutdown.jsm:857:7
+wait@AsyncShutdown.jsm:841:28
+observe@AsyncShutdown.jsm:524:17
+GeckoDriver.prototype.quit@driver.js:3319:3
+despatch@server.js:297:20
+execute@server.js:271:11
+onPacket/<@server.js:246:15
+onPacket@server.js:245:8
+_onJSONObjectReady/<@transport.js:500:9
+[Child 14236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14236, Chrome_ChildThr
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 17268, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17268, Chrome_Child[Parent 1692, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12616, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12616, Chrome_ChildThreaJavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
+[GPU 15384, Chrom1584713948872	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Acer\\AppData\\Local\\Temp\\rust_mozprofile1E5upc"
+JavaScript error: jy4nu1m3gm1.cfg, line 2: ReferenceError: Components is not defined
+1584713950075	Marionette	INFO	Listening on port 51948
+1584713950488	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584713950510	Marionette	DEBUG	[6442450945] Frame script loaded
+1584713950511	Marionette	DEBUG	[6442450945] Frame script registered
+1584713950525	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1584713950798	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1584713950850	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo
+1584713950853	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo
+1584713950868	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo
+1584713950921	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo
+1584713950921	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo
+1584713950943	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/ingredients
+1584713950949	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/ingredients
+1584713951008	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/ingredients
+1584713951017	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/ingredients
+1584713951017	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/ingredients
+1584713951040	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/recipes
+1584713951043	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/recipes
+1584713951097	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/recipes
+1584713951112	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/recipes
+1584713951113	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/recipes
+1584713951137	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/recipes/list
+1584713951139	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/recipes/list
+1584713951146	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/recipes/list
+1584713951168	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/recipes/list
+1584713951169	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/recipes/list
+1584713951191	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/recipes/detail
+1584713951192	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/recipes/detail
+1584713951204	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/recipes/detail
+1584713951215	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/recipes/detail
+1584713951216	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/recipes/detail
+1584713951240	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/recipes/update
+1584713951241	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/recipes/update
+1584713951258	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/recipes/update
+1584713951270	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/recipes/update
+1584713951270	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/recipes/update
+1584713951299	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/recipes/create
+1584713951304	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/recipes/create
+1584713951324	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/recipes/create
+1584713951343	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/recipes/create
+1584713951343	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/recipes/create
+1584713951364	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/orders
+1584713951365	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/orders
+1584713951411	Marionette	INFO	Stopped listening on port 51948
+1584713951446	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: TypeError: setting getter-only property "_currentSearchHostname" (resource://activity-stream/lib/TopSitesFeed.jsm:86:5) JS Stack trace: uninit@TopSitesFeed.jsm:86:5
+onAction@TopSitesFeed.jsm:707:9
+_middleware/</<@Store.jsm:51:11
+Store/this[method]@Store.jsm:29:55
+uninit@Store.jsm:170:7
+uninit@ActivityStream.jsm:363:5
+uninit@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:86:5
+shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:194:3
+callBootstrapMethod@XPIProvider.jsm:1588:20
+_shutdown@XPIProvider.jsm:1724:12
+flushAllWindowsAsync@SessionStore.jsm:1697:7
+ssi_onQuitApplicationGranted/<@SessionStore.jsm:1624:27
+trigger@AsyncShutdown.jsm:710:23
+_wait@AsyncShutdown.jsm:857:7
+wait@AsyncShutdown.jsm:841:28
+observe@AsyncShutdown.jsm:524:17
+GeckoDriver.prototype.quit@driver.js:3319:3
+despatch@server.js:297:20
+execute@server.js:271:11
+onPacket/<@server.js:246:15
+onPacket@server.js:245:8
+_onJSONObjectReady/<@transport.js:500:9
+[Parent 19308, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17140, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17140, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/bui[Parent 19308, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromiu[Parent 19308, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4812, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4812, Chrome_ChildThread] WARJavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
+[GPU 17572, Chrome_ChildThread] WARN
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1584714028948	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Acer\\AppData\\Local\\Temp\\rust_mozprofilebQm7js"
+JavaScript error: jy4nu1m3gm1.cfg, line 2: ReferenceError: Components is not defined
+1584714030061	Marionette	INFO	Listening on port 52029
+1584714030084	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584714030109	Marionette	DEBUG	[6442450945] Frame script loaded
+1584714030115	Marionette	DEBUG	[6442450945] Frame script registered
+1584714030137	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1584714030427	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1584714030489	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo
+1584714030493	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo
+1584714030514	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo
+1584714030544	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo
+1584714030545	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo
+1584714030569	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/ingredients
+1584714030574	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/ingredients
+1584714030634	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/ingredients
+1584714030649	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/ingredients
+1584714030649	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/ingredients
+1584714030673	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/ingredients/list
+1584714030676	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/ingredients/list
+1584714030685	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/ingredients/list
+1584714030703	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/ingredients/list
+1584714030704	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/ingredients/list
+1584714030728	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/ingredients/detail
+1584714030730	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/ingredients/detail
+1584714030744	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/ingredients/detail
+1584714030762	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/ingredients/detail
+1584714030762	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/ingredients/detail
+1584714030791	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/ingredients/update
+1584714030792	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/ingredients/update
+1584714030808	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/ingredients/update
+1584714030823	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/ingredients/update
+1584714030824	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/ingredients/update
+1584714030847	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/ingredients/create
+1584714030850	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/ingredients/create
+1584714030860	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/ingredients/create
+1584714030879	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/ingredients/create
+1584714030879	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/ingredients/create
+1584714030901	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/recipes
+1584714030902	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/recipes
+1584714030956	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/recipes
+1584714030965	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/recipes
+1584714030965	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/recipes
+1584714030988	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/recipes/list
+1584714030990	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/recipes/list
+1584714030998	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/recipes/list
+1584714031011	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/recipes/list
+1584714031011	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/recipes/list
+1584714031034	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/recipes/detail
+1584714031036	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/recipes/detail
+1584714031054	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/recipes/detail
+1584714031066	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/recipes/detail
+1584714031066	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/recipes/detail
+1584714031090	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/recipes/update
+1584714031092	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/recipes/update
+1584714031106	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/recipes/update
+1584714031118	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/recipes/update
+1584714031119	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/recipes/update
+1584714031145	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/recipes/create
+1584714031146	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/recipes/create
+1584714031164	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/recipes/create
+1584714031179	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/recipes/create
+1584714031179	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/recipes/create
+1584714031199	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/orders
+1584714031201	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/orders
+1584714031255	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/orders
+1584714031264	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/orders
+1584714031264	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/orders
+1584714031284	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/orders/list
+1584714031285	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/orders/list
+1584714031303	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/orders/list
+1584714031316	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/orders/list
+1584714031316	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/orders/list
+1584714031339	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/orders/detail
+1584714031344	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/orders/detail
+1584714031360	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/orders/detail
+1584714031380	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/orders/detail
+1584714031380	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/orders/detail
+1584714031410	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/orders/update
+1584714031415	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/orders/update
+1584714031433	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/orders/update
+1584714031443	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/orders/update
+1584714031443	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/orders/update
+1584714031470	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/orders/create
+1584714031472	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/orders/create
+1584714031480	Marionette	INFO	Stopped listening on port 52029
+1584714031520	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: TypeError: setting getter-only property "_currentSearchHostname" (resource://activity-stream/lib/TopSitesFeed.jsm:86:5) JS Stack trace: uninit@TopSitesFeed.jsm:86:5
+onAction@TopSitesFeed.jsm:707:9
+_middleware/</<@Store.jsm:51:11
+Store/this[method]@Store.jsm:29:55
+uninit@Store.jsm:170:7
+uninit@ActivityStream.jsm:363:5
+uninit@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:86:5
+shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:194:3
+callBootstrapMethod@XPIProvider.jsm:1588:20
+_shutdown@XPIProvider.jsm:1724:12
+flushAllWindowsAsync@SessionStore.jsm:1697:7
+ssi_onQuitApplicationGranted/<@SessionStore.jsm:1624:27
+trigger@AsyncShutdown.jsm:710:23
+_wait@AsyncShutdown.jsm:857:7
+wait@AsyncShutdown.jsm:841:28
+observe@AsyncShutdown.jsm:524:17
+GeckoDriver.prototype.quit@driver.js:3319:3
+despatch@server.js:297:20
+execute@server.js:271:11
+onPacket/<@server.js:246:15
+onPacket@server.js:245:8
+_onJSONObjectReady/<@transport.js:500:9
+[Parent 16220, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17728, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17728, Chrome_ChildThre[Parent 16220, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1968, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1968, Chrome_ChildThread] WARNING: pip[Parent 16220, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14832, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14832, Chrome_ChildThread] WARNING: pipe error: 109: fiJavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
+[GPU 3288, Chrome_C1584714336770	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Acer\\AppData\\Local\\Temp\\rust_mozprofilepbuJzZ"
+JavaScript error: jy4nu1m3gm1.cfg, line 2: ReferenceError: Components is not defined
+1584714338011	Marionette	INFO	Listening on port 52286
+1584714338387	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584714338407	Marionette	DEBUG	[6442450945] Frame script loaded
+1584714338408	Marionette	DEBUG	[6442450945] Frame script registered
+1584714338421	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1584714338688	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1584714338745	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo
+1584714338750	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo
+1584714338773	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo
+1584714338800	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo
+1584714338800	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo
+1584714338835	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/ingredients
+1584714338838	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/ingredients
+1584714338897	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/ingredients
+1584714338905	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/ingredients
+1584714338906	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/ingredients
+1584714338929	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/ingredients/list
+1584714338934	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/ingredients/list
+1584714338951	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/ingredients/list
+1584714338962	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/ingredients/list
+1584714338962	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/ingredients/list
+1584714338986	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/ingredients/detail
+1584714338987	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/ingredients/detail
+1584714338997	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/ingredients/detail
+1584714339016	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/ingredients/detail
+1584714339016	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/ingredients/detail
+1584714339042	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/ingredients/update
+1584714339044	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/ingredients/update
+1584714339063	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/ingredients/update
+1584714339072	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/ingredients/update
+1584714339072	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/ingredients/update
+1584714339096	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/ingredients/create
+1584714339098	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/ingredients/create
+1584714339107	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/ingredients/create
+1584714339120	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/ingredients/create
+1584714339121	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/ingredients/create
+1584714339150	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/recipes
+1584714339154	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/recipes
+1584714339201	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/recipes
+1584714339209	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/recipes
+1584714339209	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/recipes
+1584714339227	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/recipes/list
+1584714339230	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/recipes/list
+1584714339244	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/recipes/list
+1584714339254	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/recipes/list
+1584714339254	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/recipes/list
+1584714339275	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/recipes/detail
+1584714339277	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/recipes/detail
+1584714339284	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/recipes/detail
+1584714339300	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/recipes/detail
+1584714339301	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/recipes/detail
+1584714339322	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/recipes/update
+1584714339324	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/recipes/update
+1584714339337	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/recipes/update
+1584714339353	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/recipes/update
+1584714339354	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/recipes/update
+1584714339378	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/recipes/create
+1584714339380	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/recipes/create
+1584714339396	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/recipes/create
+1584714339407	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/recipes/create
+1584714339407	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/recipes/create
+1584714339427	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/orders
+1584714339428	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/orders
+1584714339485	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/orders
+1584714339495	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/orders
+1584714339495	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/orders
+1584714339513	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/orders/list
+1584714339515	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/orders/list
+1584714339524	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/orders/list
+1584714339537	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/orders/list
+1584714339537	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/orders/list
+1584714339558	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/orders/detail
+1584714339560	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/orders/detail
+1584714339578	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/orders/detail
+1584714339587	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/orders/detail
+1584714339588	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/orders/detail
+1584714339607	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/orders/update
+1584714339608	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/orders/update
+1584714339624	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:8000/froyo/orders/update
+1584714339638	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:8000/froyo/orders/update
+1584714339639	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/froyo/orders/update
+1584714339661	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/froyo/orders/create
+1584714339663	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/froyo/orders/create
+1584714339676	Marionette	INFO	Stopped listening on port 52286
+1584714339711	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: TypeError: setting getter-only property "_currentSearchHostname" (resource://activity-stream/lib/TopSitesFeed.jsm:86:5) JS Stack trace: uninit@TopSitesFeed.jsm:86:5
+onAction@TopSitesFeed.jsm:707:9
+_middleware/</<@Store.jsm:51:11
+Store/this[method]@Store.jsm:29:55
+uninit@Store.jsm:170:7
+uninit@ActivityStream.jsm:363:5
+uninit@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:86:5
+shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:194:3
+callBootstrapMethod@XPIProvider.jsm:1588:20
+_shutdown@XPIProvider.jsm:1724:12
+flushAllWindowsAsync@SessionStore.jsm:1697:7
+ssi_onQuitApplicationGranted/<@SessionStore.jsm:1624:27
+trigger@AsyncShutdown.jsm:710:23
+_wait@AsyncShutdown.jsm:857:7
+wait@AsyncShutdown.jsm:841:28
+observe@AsyncShutdown.jsm:524:17
+GeckoDriver.prototype.quit@driver.js:3319:3
+despatch@server.js:297:20
+execute@server.js:271:11
+onPacket/<@server.js:246:15
+onPacket@server.js:245:8
+_onJSONObjectReady/<@transport.js:500:9
+[Parent 5804, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3004, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3004, Chrom[Parent 5804, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 1116, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1116, Chrome_ChildThrea[Child 14828, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14828, Chrome_ChildThread] WARNING: pipe error: 109: fJavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
+[GPU 18596, Chrome_Chil
